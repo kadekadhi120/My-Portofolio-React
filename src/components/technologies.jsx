@@ -6,7 +6,7 @@ import { SiBootstrap } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { DiJava } from "react-icons/di";
-import { DiC } from "react-icons/di"
+import { TbBrandCoinbase } from "react-icons/tb";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -53,7 +53,7 @@ export const Technologies = () => {
           <DiJava className="text-7xl text-sky-500" />
         </motion.div>
         <motion.div variants={iconVariants(4)} initial="initial" animate="animate" className="rounded-2xl border-4 border-neutral-800 p-4">
-          <DiC className="text-7xl text-sky-500" />
+          <TbBrandCoinbase className="text-7xl text-transparent fill-blue-900" />
         </motion.div>
       </motion.div>
     </div>
