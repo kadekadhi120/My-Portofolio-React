@@ -1,7 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with expertise in creating web applications. With 2 years of experience, I have honed my skills in front-end technologies like React and Laravel, as well as back-end technologies like PHP and MySQL. My goal is to leverage this expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -36,15 +35,22 @@ export const PROJECTS = [
     title: "RESCUEAID INDONESIA",
     image: project1,
     description: "This project involves creating a food donation website for those in need. It also includes an admin panel database, built using PHP and the Laravel framework.",
-    technologies: ["HTML", "CSS", "Laravel", "Mysql", "Boostrap", "AOS-Animate"],
+    technologies: ["Laravel", "Mysql", "Boostrap", "AOS-Animate"],
   },
   {
     title: "Mamura",
     image: project2,
     description:
       "This project creates a revolutionary website prototype that sells surplus food that is still consumable at affordable prices. Discover various dishes from your favorite restaurants that you can enjoy at a great discount. With Mamura, you not only save money, but also help save the planet.",
-    technologies: ["HTML", "CSS", "Laravel", "Mysql", "Boostrap", "AOS-Animate"],
+    technologies: ["Laravel", "Mysql", "Boostrap", "AOS-Animate"],
   },
+  {
+  title: "Biznet Promo Platform",
+  image: project3,
+  description:
+    "Sebuah platform web full-stack yang efisien dan sudah beroperasi secara live, dirancang untuk menampilkan dan mengelola paket promo internet Biznet Home. Memiliki landing page yang modern agar pengguna dapat mengeksplorasi penawaran internet fiber optik cepat dan stabil hingga 500 Mbps. Sistem ini juga dilengkapi dengan admin dashboard terintegrasi untuk memudahkan manajemen daftar paket dan memantau data pengguna yang terdaftar.",
+  technologies: ["Next.js", "Supabase", "Notion"],
+  }
 ];
 
 export const CONTACT = {
