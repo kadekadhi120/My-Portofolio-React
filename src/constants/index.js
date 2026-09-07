@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import biznetLogo from "../assets/biznet.jpg";
 import accelistLogo from "../assets/ptAccelist.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with expertise in creating web applications. With 2 years of experience, I have honed my skills in front-end technologies like React and Laravel, as well as back-end technologies like PHP and MySQL. My goal is to leverage this expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer with expertise in creating web applications. With 2 years of experience, I have honed my skills in front-end technologies like React and Laravel, as well as back-end technologies like .Net using C#, PHP and MySQL. My goal is to leverage this expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I'm I Kadek Prasetya Adhi Nugraha, commonly known as Adhi. I am a Computer Science student at Bina Nusantara University with a strong passion for Computer Science. My journey in web development began with a deep curiosity about how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active and exploring new technologies. Throughout my studies, I have developed skills in web and software development and am committed to continuously learning and honing my abilities.`;
 
