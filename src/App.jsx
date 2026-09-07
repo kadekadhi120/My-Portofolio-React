@@ -2,7 +2,8 @@ import { Navbar } from "./components/navbar";
 import { About } from "./components/about";
 import { Hero } from "./components/hero";
 import { Technologies } from "./components/technologies";
-import { Experience } from "./components/experience";
+import { Organizations } from "./components/experience";
+import { WorkExperience } from "./components/workExperience";
 import { Projects } from "./components/projects";
 import { Contact } from "./components/contact";
 
@@ -17,7 +18,8 @@ export const App = () => {
         <Hero />
         <About />
         <Technologies />
-        <Experience />
+        <WorkExperience />
+        <Organizations />
         <Projects />
         <Contact />
       </div>

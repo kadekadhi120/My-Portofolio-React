@@ -1,12 +1,14 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import biznetLogo from "../assets/biznet.jpg";
+import accelistLogo from "../assets/ptAccelist.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with expertise in creating web applications. With 2 years of experience, I have honed my skills in front-end technologies like React and Laravel, as well as back-end technologies like PHP and MySQL. My goal is to leverage this expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I'm I Kadek Prasetya Adhi Nugraha, commonly known as Adhi. I am a Computer Science student at Bina Nusantara University with a strong passion for Computer Science. My journey in web development began with a deep curiosity about how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active and exploring new technologies. Throughout my studies, I have developed skills in web and software development and am committed to continuously learning and honing my abilities.`;
 
-export const EXPERIENCES = [
+export const ORGANIZATIONS = [
   {
     year: "2023 - 2023 (1 month)",
     role: "Volunteer",
@@ -27,6 +29,44 @@ export const EXPERIENCES = [
     company: "HIMTI Binus University",
     description: `As a member of HIMTI at Binus University, I actively participate in various events organized by HIMTI, ranging from workshops to other activities that support the development of skills and knowledge in the field of information technology. I also had the opportunity to take part in HIMTI's partnership event with Coinfest 2024, held in Bali. This event brought together various players in the tech industry, providing valuable experience and expanding my professional network.`,
     technologies: ["Computer Science"],
+  },
+];
+
+export const WORK_EXPERIENCES = [
+  {
+    year: "Feb 2025 - May 2026",
+    role: "Full Stack Developer Intern",
+    company: "Accelist Lentera Indonesia",
+    image: accelistLogo,
+    highlights: [
+      "Developed and implemented responsive, interactive user interface (UI) components using Next.js, React.js, and Tailwind CSS, improving user engagement and cutting page load times by 25%.",
+      "Designed and built robust back-end architectures, APIs, and business logic leveraging C# and the .NET framework, handling over 10,000 daily requests.",
+      "Optimized MySQL database structures, indexing, and queries using DBeaver, resulting in a 30% increase in data retrieval speed and enhanced overall backend system efficiency.",
+      "Collaborated actively within a remote, cross-functional team of Product Managers, UI/UX, and QA using Agile/Scrum methodology and Git version control to deliver features on schedule across 12 sprint cycles.",
+    ],
+    technologies: [
+      "Next.js",
+      "React.js",
+      "Tailwind CSS",
+      "C#",
+      ".NET",
+      "MySQL",
+      "DBeaver",
+      "Git",
+      "Agile/Scrum",
+    ],
+  },
+  {
+    year: "Freelance Project",
+    role: "Freelance Full Stack Developer",
+    company: "Biznet Promo Platform",
+    image: biznetLogo,
+    highlights: [
+      "Built and launched a full-stack web platform for showcasing and managing Biznet Home internet promotion packages.",
+      "Created a modern landing page that helps users explore fast and stable fiber optic internet offers up to 500 Mbps.",
+      "Developed an integrated admin dashboard for managing package listings and monitoring registered user data.",
+    ],
+    technologies: ["Next.js", "Supabase", "Notion"],
   },
 ];
 
